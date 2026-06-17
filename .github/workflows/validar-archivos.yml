@@ -1,8 +1,7 @@
 name: Actividad 2 - Validacion de Archivos
-
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
