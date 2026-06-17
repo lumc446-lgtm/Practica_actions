@@ -1,0 +1,13 @@
+name: Hola actions
+on:
+  workflow_dispatch:
+jobs:
+  imprimir-datos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimir información solicitada
+        run: |
+          echo "=== Datos del Workflow ==="
+          echo "Estudiante: Daniela"
+          echo "Fecha de ejecución: $(date +'%Y-%m-%d %H:%M:%S')"
+          echo "Sistema Operativo del Runner: $RUNNER_OS"
