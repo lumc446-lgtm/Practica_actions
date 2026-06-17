@@ -1,4 +1,4 @@
-name: Actividad 2 - Validacion de Archivos
+name: Validacion de Archivos
 on:
   push:
     branches: ["main"]
